@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet"  href="file:///G:/Session3/Applications%20web%201/Projet%20session/Projet-Session_Young-Tir/css/style-projet.css">
+  <script src="/css/script_projet.js"></script>
+  <title>Contact</title>
+</head>
+<body class="body">
+    <h1 class="title1">Contact</h1>
+   <h2 class="title2"> Pour nous contacter :</h2><hr>
+    <div onload="modifierButton()">
+    <form action="file:///G:/Session3/Applications%20web%201/Projet%20session/Projet-Session_Young-Tir/Vues/Contact.2.html" method="GET" target="_blank">
+      <p class="parag"> <label for ="prenom">Entrez votre prenom : </label><br>
+       <input type="text" id="prenom" name="unPrenom" placeholder="Votre prenom...">
+    </p>
+    <p class="parag">
+       <label for="nom"> Entrez votre nom : </label><br>
+       <input type="text" id="nom" name ="unNom" placeholder="Votre nom...">
+    </p>
+    <p class="parag">
+        <label for="Pays"> Pays </label><br>
+        <select id="Pays" name="Pays">
+            <option value="Canada"> Canada </option>
+            <option value="EU" > États-Unis </option>
+            <option value="Australie"> Australie </option>
+            <option value="Chine"> Chine </option>
+        </select>
+    </p><p class="parag"><label for="Comment"> Commentaire : </label><br>
+        <textarea id="Comment" name="commentaire" placeholder="Commentaire..." style="height:200px">
+        </textarea>
+    </p>
+    <p class="parag"><input type="submit" value= "Soumettre"></p>
+    </form></div>
+    <div onload="modifierButton()">
+    <p class="parag"><a class="LPvisite Lvisite LSurvole" href="file:///G:/Session3/Applications%20web%201/Projet%20session/Projet-Session_Young-Tir/Vues/Accueil.html"><b>Accueil</b></a></p>
+  </div>
+  </body>
+</html>

@@ -1,0 +1,106 @@
+/*
+  Fichier Css pour projet de sessions
+  Par: Young Tir
+  Date:
+*/
+.body{
+  background-color: lightblue;
+  margin: 15px 8px 10px 8px;
+}
+.img{
+  background-image: url("Image/Beats Solo3.jpg");
+  opacity:1;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+}
+.title1{
+text-align: center;
+color: black;
+background-color: var(--bs-blue);
+font-family: Verdana;
+font-size: 150%;
+}
+.title2{
+  font-family: Arial;
+  font-size: 100%;
+  text-align: left;
+  color: black;
+  background-color: transparent;
+}
+.parag{
+  font-family:georgia;
+  font-size:80%;
+  text-indent: 8px;
+  text-align: justify;
+  background-color: transparent;
+  margin-left: 8px;
+  margin-right: 16px;
+}
+.liste{
+  font-family: Verdana;
+  font-size: 80%;
+  text-align: justify;
+  background-color: transparent;
+  margin-left: 10px;
+  margin-right: 0px;
+}
+/* Liens du menu navigation*/
+a.nvisite:link{
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+    padding: 14px 25px;
+    
+  }
+  a.visite:visited{
+    color: blue;
+    background-color: transparent;
+    text-decoration: overline;
+    padding: 14px 25px;
+   
+  }
+  a.survole:hover{
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+    padding: 14px 25px;
+    
+  }
+
+/*Lien*/
+  a.LPvisite:link{
+    color: red;
+    background-color: transparent;
+    text-decoration: overline;
+  }
+  a.Lvisite:visited{
+    color: blue;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  a.LSurvole:hover{
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+  table{
+    font-family: Comic sans MS;
+    font-size: 80%;
+    text-align: center;
+    border: 2px;
+    background-color: white;
+    border-color: grey;
+    border-style: solid;
+    
+  }
+th, td{
+  color: grey;
+  border: 2px;
+  border-style: solid;
+  
+}
+
+  

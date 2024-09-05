@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head lang="fr">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet"  href="G:\Session3\Applications web 1\Projet session\Projet-Session_Young-Tir\css\style-projet.css">
+  <link rel="stylesheet"  href="G:\Session3\Applications web 1\Projet session\Projet-Session_Young-Tir\css\Bootstrap5/bootstrap-5.0.2-dist/css/bootstrap.css">
+  <script src="G:\Session3\Applications web 1\Projet session\Projet-Session_Young-Tir\css\Bootstrap5\bootstrap-5.0.2-dist\js\bootstrap.js"></script>
+  <script src="/css/script_projet.js"></script>
+  <title>Page d'accueil</title>
+ 
+</head>
+<body class="body">
+ <h1 class="title1" >Page d'accueil</h1><hr>
+ <nav class="navbar navbar-expand-lg navbar-light bg-light">
+   <div class="container-fluid" onload="modifierButton()">
+  
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span></button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <div class="nav-bar-nav" onmouseenter="itemActif(0);">
+          
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+          <a class="nav-link active nav-item show" aria-current="page" href="file:///G:/Session3/Applications%20web%201/Projet%20session/Projet-Session_Young-Tir/Vues/Accueil.html">Accueil</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="file:///G:/Session3/Applications%20web%201/Projet%20session/Projet-Session_Young-Tir/Vues/Produits.html">Produits</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="file:///G:/Session3/Applications%20web%201/Projet%20session/Projet-Session_Young-Tir/Vues/Presentation.html">Présentation</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="file:///G:/Session3/Applications%20web%201/Projet%20session/Projet-Session_Young-Tir/Vues/Local.html">Local</a>
+        </li>
+          <li class="nav-item">
+          <a class="nav-link" href="file:///G:/Session3/Applications%20web%201/Projet%20session/Projet-Session_Young-Tir/Vues/Contact.html">Contact</a>
+        </li>
+          <li class="nav-item">
+          <a class="nav-link" href="file:///G:/Session3/Applications%20web%201/Projet%20session/Projet-Session_Young-Tir/Vues/Compte.html">Compte</a>
+        </li>
+        </ul>
+        </div>
+      </div>
+    </div>
+ </nav>
+ <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="G:\Session3\Applications web 1\Projet session\Projet-Session_Young-Tir\Image\Quest2.webp" class="d-block w-60" alt="...">
+    </div>
+    <div class="carousel-item" onmouseenter="itemActif(1);">
+      <img src="G:\Session3\Applications web 1\Projet session\Projet-Session_Young-Tir\Image\Beats Solo3.jpg" class="d-block w-60" alt="...">
+    </div>
+    <div class="carousel-item" onmouseenter="itemActif(2);">
+      <img src="G:\Session3\Applications web 1\Projet session\Projet-Session_Young-Tir\Image\JBL Flip 5.jfif" class="d-block w-60" alt="...">
+    </div>
+    <div class="carousel-item" onmouseenter="itemActif(3);">
+      <img src="G:\Session3\Applications web 1\Projet session\Projet-Session_Young-Tir\Image\Logitech_G502Hero.jpg" class="d-block w-60" alt="...">
+    </div>
+  </div>
+  <div onload="modifierButton()">
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+</div>
+
+  </body>
+</html>
